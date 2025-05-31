@@ -1,2 +1,2 @@
 # Bubble-Game
-A project to implement Javascript 
+to learn the concept event bubbling
