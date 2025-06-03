@@ -1,2 +1,2 @@
 # Bubble-Game
-to learn the concept event bubbling
+to learn the concept of event bubbling
