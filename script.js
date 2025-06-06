@@ -1,4 +1,4 @@
-let count = 3;
+let count = 60;
 
 const getNewHit = () => {
     let rn = Math.floor(Math.random()*10);
