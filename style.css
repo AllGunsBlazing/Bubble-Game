@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Helvetica";
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    background-color: rgb(155, 205, 155);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#panel{
+    display: flex; 
+    flex-direction: column;
+    background-color:rgb(145, 183, 145);
+    /* overflow: hidden; */
+    width: 80%;
+    height:80%;
+    border-radius: 10px;
+
+}
+
+#ptop{
+    background-color: rgb(100, 144, 100);
+    width: 100%;
+    height: 45px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 15px;
+  
+}
+
+.box{
+    color: rgb(18,119,57);
+    background-color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    width: 20px;
+    height: 20px;
+    padding: 5px 2px 5px 6.5px;
+    border-radius: 5px ;
+    font-weight: 600;
+}
+
+.element{
+    color: whitesmoke;
+    /* width: 10%; */
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 10px;
+    /* background-color: red; */
+}
+
+.element h2{
+    font-weight: 300;
+}
+
+#p-btm{
+    display: flex;
+    flex-wrap: wrap;  
+     /*bubble gulo line e accomodate korchilo forcibly tay porer linee anar jonno flex-wrap  */
+    gap: 10px;
+    height: 100% ;
+    width: 100%;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(100, 144, 100);
+    border-radius: 100px;
+    font-size: 10px;
+    color: aliceblue;
+    font-weight: 100;
+}
+
+.bubble:hover{
+    background-color: steelblue;
+    cursor: pointer;
+}
+
+
